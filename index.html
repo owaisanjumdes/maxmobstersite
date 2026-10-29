@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Everybody Knows a Tony · Max Mobster</title>
+<meta name="description" content="An unofficial psychology ebook on how Tony Soprano controlled everyone around him, and how to spot the same moves in real life.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800;900&amp;display=swap">
+<style>
+body{margin:0;background:#000}
+a{color:#F2F2F2}a:hover{color:#FFFFFF}
+summary::-webkit-details-marker{display:none}
+summary{list-style:none}
+input::placeholder{color:#8C8C8C}
+</style>
+<style>html{scroll-behavior:smooth}</style>
+</head>
+<body>
+<div style="background: #000000; color: #F2F2F2; font-family: 'Inter Tight', 'Helvetica Neue', Arial, sans-serif; -webkit-font-smoothing: antialiased; width: 100%">
+
+<!-- NAV -->
+<header style="position: relative; z-index: 2; padding: 24px clamp(20px, 4vw, 56px); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+<a href="#top" style="text-decoration: none; color: #D61F26; font-weight: 900; font-size: 26px; letter-spacing: -0.02em; text-transform: uppercase">Max Mobster</a>
+<nav aria-label="Main" style="display: flex; flex-wrap: wrap; align-items: center; gap: 28px">
+<a href="#inside" style="text-decoration: none; font-size: 15px; font-weight: 500; color: #D4D4D4">Chapters</a>
+<a href="#sample" style="text-decoration: none; font-size: 15px; font-weight: 500; color: #D4D4D4">Free sample</a>
+<a href="#faq" style="text-decoration: none; font-size: 15px; font-weight: 500; color: #D4D4D4">FAQ</a>
+<a href="#buy" style="text-decoration: none; display: inline-flex; align-items: center; min-height: 44px; padding: 0 20px; background: #D61F26; color: #FFFFFF; font-weight: 700; font-size: 15px; border-radius: 4px">Get the book · $X</a>
+</nav>
+</header>
+
+<!-- HERO -->
+<section id="top" style="padding: 48px clamp(20px, 4vw, 56px) 112px; border-bottom: 1px solid #1C1C1C">
+<div style="max-width: 1280px; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; gap: 64px">
+<div style="flex: 1 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 28px">
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px; font-size: 13px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #A3A3A3">
+<span style="color: #FF5A52">Ebook</span>
+<span aria-hidden="true">·</span>
+<span>[X] chapters</span>
+<span aria-hidden="true">·</span>
+<span>PDF</span>
+<span aria-hidden="true">·</span>
+<span style="border: 1px solid #5A5A5A; padding: 2px 8px; border-radius: 3px; letter-spacing: 0.04em">Unofficial</span>
+</div>
+<h1 style="margin: 0; font-size: clamp(52px, 7.4vw, 112px); line-height: 0.92; font-weight: 900; letter-spacing: -0.045em; text-wrap: balance">Everybody Knows a Tony</h1>
+<p style="margin: 0; max-width: 560px; font-size: clamp(18px, 1.6vw, 22px); line-height: 1.45; color: #D4D4D4; text-wrap: pretty">Tony Soprano rarely needed a gun to control the people around him. This is how he did it, move by move, and how to spot the same moves in the people around you.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px; padding-top: 8px">
+<a href="#buy" style="text-decoration: none; display: inline-flex; align-items: center; gap: 10px; min-height: 56px; padding: 0 28px; background: #FFFFFF; color: #000000; font-weight: 800; font-size: 18px; border-radius: 4px">
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"></path><path d="M7 10l5 5 5-5"></path><path d="M5 21h14"></path></svg>
+Get the book · $X</a>
+<a href="#sample" style="text-decoration: none; display: inline-flex; align-items: center; gap: 10px; min-height: 56px; padding: 0 28px; background: rgba(110,110,110,0.4); color: #FFFFFF; font-weight: 700; font-size: 18px; border-radius: 4px">Read a free chapter</a>
+</div>
+<p style="margin: 0; font-size: 15px; color: #A3A3A3">Not ready to buy? <a href="#cheatsheet" style="color: #FFFFFF; font-weight: 600">Get the free cheat sheet</a></p>
+</div>
+
+<!-- Cover stack: tap either cover to swap -->
+<div style="flex: 0 1 400px; min-width: 0; display: flex; flex-direction: column; align-items: center; gap: 20px">
+<div style="position: relative; width: 360px; max-width: 100%; aspect-ratio: 360 / 480">
+<button type="button" id="coverBack" data-swap aria-label="Bring the back cover forward" style="position: absolute; display: block; padding: 0; margin: 0; border: 0; background: none; cursor: pointer; width: 80%; aspect-ratio: 2 / 3; border-radius: 2px; box-shadow: 0 40px 80px rgba(0,0,0,0.7); transition: left 0.5s cubic-bezier(0.2,0.8,0.2,1), top 0.5s cubic-bezier(0.2,0.8,0.2,1), transform 0.5s cubic-bezier(0.2,0.8,0.2,1), filter 0.5s; left: 20%; top: 6%; z-index: 1; transform: rotate(4deg); filter: brightness(0.5);"><img src="images/back-cover.jpg" alt="Back cover of Everybody Knows a Tony" style="display: block; width: 100%; height: 100%; object-fit: cover; border-radius: 2px"></button>
+<button type="button" id="coverFront" data-swap aria-label="Front cover. Tap to see the back" style="position: absolute; display: block; padding: 0; margin: 0; border: 0; background: none; cursor: pointer; width: 80%; aspect-ratio: 2 / 3; border-radius: 2px; box-shadow: 0 40px 80px rgba(0,0,0,0.7); transition: left 0.5s cubic-bezier(0.2,0.8,0.2,1), top 0.5s cubic-bezier(0.2,0.8,0.2,1), transform 0.5s cubic-bezier(0.2,0.8,0.2,1), filter 0.5s; left: 0; top: 0; z-index: 2; transform: rotate(-2deg); filter: none;"><img src="images/front-cover.jpg" alt="Front cover of Everybody Knows a Tony by Max Mobster" style="display: block; width: 100%; height: 100%; object-fit: cover; border-radius: 2px"></button>
+</div>
+<button type="button" data-swap style="min-height: 44px; padding: 0 16px; border: 1px solid #3A3A3A; border-radius: 4px; background: transparent; color: #D4D4D4; font-family: inherit; font-size: 14px; font-weight: 600; cursor: pointer; display: inline-flex; align-items: center; gap: 8px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#D4D4D4" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h11l-3-3"></path><path d="M17 17H6l3 3"></path></svg><span id="coverToggleText">See the back cover</span></button>
+</div>
+</div>
+</section>
+
+<!-- YOU'VE MET A TONY -->
+<section style="padding: 120px clamp(20px, 4vw, 56px); border-bottom: 1px solid #1C1C1C">
+<div style="max-width: 1280px; margin: 0 auto; display: flex; flex-direction: column; gap: 48px">
+<p style="margin: 0; font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #FF5A52">Who this is for</p>
+<h2 style="margin: 0; font-size: clamp(36px, 4.4vw, 64px); line-height: 1; font-weight: 900; letter-spacing: -0.04em">You've met a Tony.</h2>
+<div style="display: flex; flex-direction: column; gap: 18px; font-size: clamp(26px, 3vw, 42px); line-height: 1.15; font-weight: 800; letter-spacing: -0.03em">
+<p style="margin: 0">The boss who explodes, then buys lunch.</p>
+<p style="margin: 0; color: #8C8C8C">The mother who never asks. She only implies.</p>
+<p style="margin: 0">The friend who makes you doubt what you saw.</p>
+<p style="margin: 0; color: #8C8C8C">The partner who's always sorry, and never different.</p>
+</div>
+<p style="margin: 0; max-width: 640px; font-size: 20px; line-height: 1.55; color: #D4D4D4; text-wrap: pretty">Tony ran every one of these plays, on his crew, his family and his own psychiatrist. This book takes the scenes apart, names the psychology behind each one, and shows you what it looks like when someone runs it on you.</p>
+</div>
+</section>
+
+<!-- CHAPTERS (catalogue) -->
+<section id="inside" style="padding: 112px clamp(20px, 4vw, 56px) 120px; border-bottom: 1px solid #1C1C1C">
+<div style="max-width: 1280px; margin: 0 auto; display: flex; flex-direction: column; gap: 40px">
+<div style="display: flex; flex-direction: column; gap: 12px; max-width: 720px">
+<p style="margin: 0; font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #FF5A52">What's inside</p>
+<h2 style="margin: 0; font-size: clamp(32px, 3.4vw, 48px); line-height: 1.05; font-weight: 800; letter-spacing: -0.03em">One move per chapter. One victim per move.</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.5; color: #A3A3A3">Each chapter is one of Tony's moves, the person he used it on, and how to spot it in your own life.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 16px">
+<article style="position: relative; overflow: hidden; aspect-ratio: 2 / 3; background: #141414; border: 1px solid #262626; border-radius: 4px; display: flex; flex-direction: column; justify-content: space-between">
+<img src="images/ch01.jpg" alt="Tony kissing Carmela as she reads a card" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 25%; display: block">
+<div aria-hidden="true" style="position: absolute; left: 0; right: 0; bottom: 0; height: 62%; background: linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.85) 45%, rgba(0,0,0,0) 100%)"></div>
+<div style="position: relative; display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; padding: 16px"><span style="font-size: 13px; font-weight: 800; letter-spacing: 0.06em; color: #FFFFFF; background: rgba(0,0,0,0.72); padding: 5px 9px; border-radius: 3px">01</span></div>
+<div style="position: relative; display: flex; flex-direction: column; gap: 8px; padding: 20px">
+<h3 style="margin: 0; font-size: 26px; font-weight: 800; letter-spacing: -0.02em; line-height: 1.05; color: #FFFFFF">The Gift</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.4; color: #E5E5E5">Explode, then apologize with something expensive.</p>
+<p style="margin: 0; font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #FF5A52">Carmela · Season 3</p>
+</div>
+</article>
+<article style="position: relative; overflow: hidden; aspect-ratio: 2 / 3; background: #141414; border: 1px solid #262626; border-radius: 4px; display: flex; flex-direction: column; justify-content: space-between">
+<img src="images/ch02.jpg" alt="Tony raising a toast behind a seated Junior" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block">
+<div aria-hidden="true" style="position: absolute; left: 0; right: 0; bottom: 0; height: 62%; background: linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.85) 45%, rgba(0,0,0,0) 100%)"></div>
+<div style="position: relative; display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; padding: 16px"><span style="font-size: 13px; font-weight: 800; letter-spacing: 0.06em; color: #FFFFFF; background: rgba(0,0,0,0.72); padding: 5px 9px; border-radius: 3px">02</span></div>
+<div style="position: relative; display: flex; flex-direction: column; gap: 8px; padding: 20px">
+<h3 style="margin: 0; font-size: 26px; font-weight: 800; letter-spacing: -0.02em; line-height: 1.05; color: #FFFFFF">The Throne</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.4; color: #E5E5E5">Give someone the title. Keep the power.</p>
+<p style="margin: 0; font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #FF5A52">Junior · Season 1</p>
+</div>
+</article>
+<article style="position: relative; overflow: hidden; aspect-ratio: 2 / 3; background: #141414; border: 1px solid #262626; border-radius: 4px; display: flex; flex-direction: column; justify-content: space-between">
+<img src="images/ch03.jpg" alt="Tony standing behind Davey" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; object-position: 40% center; display: block">
+<div aria-hidden="true" style="position: absolute; left: 0; right: 0; bottom: 0; height: 62%; background: linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.85) 45%, rgba(0,0,0,0) 100%)"></div>
+<div style="position: relative; display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; padding: 16px"><span style="font-size: 13px; font-weight: 800; letter-spacing: 0.06em; color: #FFFFFF; background: rgba(0,0,0,0.72); padding: 5px 9px; border-radius: 3px">03</span><span style="font-size: 11px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: #000000; background: #FFFFFF; padding: 5px 8px; border-radius: 3px">Free sample</span></div>
+<div style="position: relative; display: flex; flex-direction: column; gap: 8px; padding: 20px">
+<h3 style="margin: 0; font-size: 26px; font-weight: 800; letter-spacing: -0.02em; line-height: 1.05; color: #FFFFFF">The Open Door</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.4; color: #E5E5E5">Say no until they'll pay anything for a yes.</p>
+<p style="margin: 0; font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #FF5A52">Davey · Season 2</p>
+</div>
+</article>
+<article style="position: relative; overflow: hidden; aspect-ratio: 2 / 3; background: #141414; border: 1px solid #262626; border-radius: 4px; display: flex; flex-direction: column; justify-content: space-between">
+<img src="images/ch04.jpg" alt="Johnny Sack smoking by a bridge" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 75%; display: block">
+<div aria-hidden="true" style="position: absolute; left: 0; right: 0; bottom: 0; height: 62%; background: linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.85) 45%, rgba(0,0,0,0) 100%)"></div>
+<div style="position: relative; display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; padding: 16px"><span style="font-size: 13px; font-weight: 800; letter-spacing: 0.06em; color: #FFFFFF; background: rgba(0,0,0,0.72); padding: 5px 9px; border-radius: 3px">04</span></div>
+<div style="position: relative; display: flex; flex-direction: column; gap: 8px; padding: 20px">
+<h3 style="margin: 0; font-size: 26px; font-weight: 800; letter-spacing: -0.02em; line-height: 1.05; color: #FFFFFF">The Frame</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.4; color: #E5E5E5">Aim the anger somewhere else. Then ask for proof.</p>
+<p style="margin: 0; font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #FF5A52">Johnny Sack · Season 4</p>
+</div>
+</article>
+<article style="position: relative; overflow: hidden; aspect-ratio: 2 / 3; background: #141414; border: 1px solid #262626; border-radius: 4px; display: flex; flex-direction: column; justify-content: space-between">
+<img src="images/ch05.jpg" alt="Christopher in a neck brace beside Tony" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 20%; display: block">
+<div aria-hidden="true" style="position: absolute; left: 0; right: 0; bottom: 0; height: 62%; background: linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.85) 45%, rgba(0,0,0,0) 100%)"></div>
+<div style="position: relative; display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; padding: 16px"><span style="font-size: 13px; font-weight: 800; letter-spacing: 0.06em; color: #FFFFFF; background: rgba(0,0,0,0.72); padding: 5px 9px; border-radius: 3px">05</span></div>
+<div style="position: relative; display: flex; flex-direction: column; gap: 8px; padding: 20px">
+<h3 style="margin: 0; font-size: 26px; font-weight: 800; letter-spacing: -0.02em; line-height: 1.05; color: #FFFFFF">The Revenge Gift</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.4; color: #E5E5E5">Hand him a name for his father's killer. Own him for life.</p>
+<p style="margin: 0; font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #FF5A52">Christopher · Season 4</p>
+</div>
+</article>
+<article style="position: relative; overflow: hidden; aspect-ratio: 2 / 3; background: #141414; border: 1px solid #262626; border-radius: 4px; display: flex; flex-direction: column; justify-content: space-between">
+<img src="images/ch06.jpg" alt="Tony and Melfi face to face" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block">
+<div aria-hidden="true" style="position: absolute; left: 0; right: 0; bottom: 0; height: 62%; background: linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.85) 45%, rgba(0,0,0,0) 100%)"></div>
+<div style="position: relative; display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; padding: 16px"><span style="font-size: 13px; font-weight: 800; letter-spacing: 0.06em; color: #FFFFFF; background: rgba(0,0,0,0.72); padding: 5px 9px; border-radius: 3px">06</span></div>
+<div style="position: relative; display: flex; flex-direction: column; gap: 8px; padding: 20px">
+<h3 style="margin: 0; font-size: 26px; font-weight: 800; letter-spacing: -0.02em; line-height: 1.05; color: #FFFFFF">The Breakthrough</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.4; color: #E5E5E5">Hand your therapist a memory. Buy another year.</p>
+<p style="margin: 0; font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #FF5A52">Melfi · Season 3</p>
+</div>
+</article>
+<article style="position: relative; overflow: hidden; aspect-ratio: 2 / 3; background: #141414; border: 1px solid #262626; border-radius: 4px; display: flex; flex-direction: column; justify-content: space-between">
+<img src="images/ch07.jpg" alt="Tony and Adriana face to face" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 25%; display: block">
+<div aria-hidden="true" style="position: absolute; left: 0; right: 0; bottom: 0; height: 62%; background: linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.85) 45%, rgba(0,0,0,0) 100%)"></div>
+<div style="position: relative; display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; padding: 16px"><span style="font-size: 13px; font-weight: 800; letter-spacing: 0.06em; color: #FFFFFF; background: rgba(0,0,0,0.72); padding: 5px 9px; border-radius: 3px">07</span></div>
+<div style="position: relative; display: flex; flex-direction: column; gap: 8px; padding: 20px">
+<h3 style="margin: 0; font-size: 26px; font-weight: 800; letter-spacing: -0.02em; line-height: 1.05; color: #FFFFFF">The Trusted Voice</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.4; color: #E5E5E5">Be the voice they trust. Then send the car.</p>
+<p style="margin: 0; font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #FF5A52">Adriana · Season 5</p>
+</div>
+</article>
+<article style="aspect-ratio: 2 / 3; background: #0A0A0A; border: 1px dashed #3A3A3A; border-radius: 4px; padding: 22px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; gap: 10px">
+<h3 style="margin: 0; font-size: 24px; font-weight: 800; letter-spacing: -0.02em; line-height: 1.1">+ [X] more chapters</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.4; color: #A3A3A3">Only in the book.</p>
+</article>
+</div>
+</div>
+</section>
+
+<!-- SAMPLE CASE FILE -->
+<section id="sample" style="padding: 120px clamp(20px, 4vw, 56px); border-bottom: 1px solid #1C1C1C">
+<div style="max-width: 1080px; margin: 0 auto; display: flex; flex-direction: column; gap: 40px">
+<div style="display: flex; flex-direction: column; gap: 12px">
+<p style="margin: 0; font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #FF5A52">Free sample</p>
+<h2 style="margin: 0; font-size: clamp(32px, 3.4vw, 48px); line-height: 1.05; font-weight: 800; letter-spacing: -0.03em">Read chapter 3 before you buy.</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.5; color: #A3A3A3">Every chapter follows the same five steps, so you always know where you are.</p>
+</div>
+
+<article style="background: #101010; border: 1px solid #262626; border-radius: 4px">
+<div style="display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 12px; padding: 28px 32px; border-bottom: 1px solid #262626">
+<div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 16px">
+<span style="font-size: 13px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; color: #FF5A52">Chapter 03</span>
+<h3 style="margin: 0; font-size: 30px; font-weight: 800; letter-spacing: -0.02em">The Open Door</h3>
+</div>
+<span style="font-size: 14px; color: #A3A3A3">Subject: Davey Scatino · Season 2</span>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 8px 32px; padding: 24px 32px; border-bottom: 1px solid #1C1C1C">
+<p style="flex: 0 0 180px; margin: 0; font-size: 13px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #8C8C8C; padding-top: 3px">1 · The scene</p>
+<p style="flex: 1 1 380px; margin: 0; font-size: 17px; line-height: 1.6; color: #E5E5E5">Davey, an old friend who runs a sporting-goods store, keeps asking for a seat at Tony's high-stakes card game. Tony keeps saying no. When he finally says yes, Davey loses more than he can pay, and Tony's crew empties the store from the inside.</p>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 8px 32px; padding: 24px 32px; border-bottom: 1px solid #1C1C1C">
+<p style="flex: 0 0 180px; margin: 0; font-size: 13px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #8C8C8C; padding-top: 3px">2 · The psychology</p>
+<p style="flex: 1 1 380px; margin: 0; font-size: 17px; line-height: 1.6; color: #E5E5E5">Psychologists call it reactance: tell people they can't have something, and they want it more. Every no made the table look bigger, and made Davey readier to bet whatever it took to sit at it.</p>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 8px 32px; padding: 24px 32px; border-bottom: 1px solid #1C1C1C">
+<p style="flex: 0 0 180px; margin: 0; font-size: 13px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #8C8C8C; padding-top: 3px">3 · The tell</p>
+<p style="flex: 1 1 380px; margin: 0; font-size: 17px; line-height: 1.6; color: #E5E5E5">Access held back until you're at your weakest, then offered as a favor.</p>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 8px 32px; padding: 24px 32px; border-bottom: 1px solid #1C1C1C">
+<p style="flex: 0 0 180px; margin: 0; font-size: 13px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #8C8C8C; padding-top: 3px">4 · In real life</p>
+<p style="flex: 1 1 380px; margin: 0; font-size: 17px; line-height: 1.6; color: #E5E5E5">The "exclusive" deal that's closing tonight. The partner who's always just about to commit. The boss who keeps the promotion out of reach until you've stopped asking for a raise.</p>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 8px 32px; padding: 24px 32px">
+<p style="flex: 0 0 180px; margin: 0; font-size: 13px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #FF5A52; padding-top: 3px">5 · The counter</p>
+<p style="flex: 1 1 380px; margin: 0; font-size: 17px; line-height: 1.6; color: #FFFFFF; font-weight: 600">Ask why the yes showed up now. If it came exactly when you had the least leverage, it wasn't a favor.</p>
+</div>
+</article>
+
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px">
+<p style="margin: 0; font-size: 20px; font-weight: 700">That's one chapter. There are [X] more.</p>
+<a href="#buy" style="text-decoration: none; display: inline-flex; align-items: center; min-height: 56px; padding: 0 28px; background: #D61F26; color: #FFFFFF; font-weight: 800; font-size: 18px; border-radius: 4px">Get the full book · $X</a>
+</div>
+</div>
+</section>
+
+<!-- CHEAT SHEET BAND -->
+<section id="cheatsheet" style="background: #B3141B; padding: 88px clamp(20px, 4vw, 56px)">
+<div style="max-width: 1280px; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 40px">
+<div style="flex: 1 1 460px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
+<p style="margin: 0; font-size: 13px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; color: #FFFFFF">Free download</p>
+<h2 style="margin: 0; font-size: clamp(34px, 3.8vw, 56px); line-height: 1; font-weight: 900; letter-spacing: -0.035em; color: #FFFFFF">[CHEAT SHEET TITLE]</h2>
+<p style="margin: 0; max-width: 520px; font-size: 18px; line-height: 1.5; color: #FFFFFF">[One-line description of the free cheat sheet.]</p>
+</div>
+<form style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 10px" onsubmit="event.preventDefault()">
+<label for="email" style="font-size: 14px; font-weight: 700; color: #FFFFFF">Where should we send it?</label>
+<div style="display: flex; flex-wrap: wrap; gap: 10px">
+<input id="email" type="email" placeholder="you@example.com" style="flex: 1 1 240px; min-width: 0; min-height: 56px; padding: 0 18px; box-sizing: border-box; border: 0; border-radius: 4px; background: #FFFFFF; color: #000000; font-family: inherit; font-size: 17px">
+<button type="submit" style="min-height: 56px; padding: 0 26px; border: 0; border-radius: 4px; background: #000000; color: #FFFFFF; font-family: inherit; font-weight: 800; font-size: 17px; cursor: pointer">Send it to me</button>
+</div>
+<p style="margin: 0; font-size: 13px; color: #FFFFFF">[EMAIL TOOL] · [Your privacy line]</p>
+</form>
+</div>
+</section>
+
+<!-- BUY -->
+<section id="buy" style="padding: 128px clamp(20px, 4vw, 56px); border-bottom: 1px solid #1C1C1C">
+<div style="max-width: 1280px; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; gap: 64px">
+<div style="flex: 1 1 460px; min-width: 0; display: flex; flex-direction: column; gap: 20px">
+<p style="margin: 0; font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #FF5A52">Get the book</p>
+<h2 style="margin: 0; font-size: clamp(40px, 5vw, 72px); line-height: 0.95; font-weight: 900; letter-spacing: -0.04em">Everybody Knows a Tony</h2>
+<div style="display: flex; flex-wrap: wrap; gap: 16px; padding: 8px 0">
+<img src="images/front-cover.jpg" alt="Front cover" style="display: block; width: 170px; max-width: 45%; aspect-ratio: 2 / 3; object-fit: cover; border-radius: 2px; box-shadow: 0 20px 40px rgba(0,0,0,0.6)">
+<img src="images/back-cover.jpg" alt="Back cover" style="display: block; width: 170px; max-width: 45%; aspect-ratio: 2 / 3; object-fit: cover; border-radius: 2px; box-shadow: 0 20px 40px rgba(0,0,0,0.6)">
+</div>
+<ul style="margin: 8px 0 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 16px">
+<li style="display: flex; gap: 14px; align-items: flex-start; font-size: 18px; line-height: 1.45; color: #E5E5E5">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FF5A52" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px"><path d="M5 12l5 5L20 7"></path></svg>
+<span>[X] chapters: the scene, the psychology, the tell, real life and the counter</span></li>
+<li style="display: flex; gap: 14px; align-items: flex-start; font-size: 18px; line-height: 1.45; color: #E5E5E5">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FF5A52" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px"><path d="M5 12l5 5L20 7"></path></svg>
+<span>The free cheat sheet, included</span></li>
+<li style="display: flex; gap: 14px; align-items: flex-start; font-size: 18px; line-height: 1.45; color: #E5E5E5">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FF5A52" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px"><path d="M5 12l5 5L20 7"></path></svg>
+<span>Season and episode for every scene, so you can check it yourself</span></li>
+</ul>
+</div>
+<div style="flex: 0 1 420px; min-width: 0; background: #141414; border: 1px solid #262626; border-radius: 4px; padding: 40px; box-sizing: border-box; display: flex; flex-direction: column; gap: 24px">
+<div style="display: flex; align-items: baseline; gap: 12px">
+<span style="font-size: 72px; font-weight: 900; letter-spacing: -0.05em; line-height: 1">$X</span>
+<span style="font-size: 16px; color: #A3A3A3">one-time payment</span>
+</div>
+<p style="margin: 0; font-size: 16px; line-height: 1.5; color: #A3A3A3">PDF · instant download · [X] pages</p>
+<a href="[CHECKOUT LINK]" style="text-decoration: none; display: flex; align-items: center; justify-content: center; min-height: 60px; background: #D61F26; color: #FFFFFF; font-weight: 800; font-size: 19px; border-radius: 4px">Buy now · $X</a>
+<p style="margin: 0; font-size: 13px; color: #8C8C8C; text-align: center">Secure checkout through [CHECKOUT PLATFORM]</p>
+</div>
+</div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" style="padding: 120px clamp(20px, 4vw, 56px)">
+<div style="max-width: 880px; margin: 0 auto; display: flex; flex-direction: column; gap: 32px">
+<h2 style="margin: 0; font-size: clamp(32px, 3.4vw, 48px); line-height: 1.05; font-weight: 800; letter-spacing: -0.03em">Questions</h2>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<details style="background: #141414; border-radius: 4px">
+<summary style="cursor: pointer; padding: 24px 28px; font-size: 20px; font-weight: 600; display: flex; justify-content: space-between; gap: 16px">Is this an official Sopranos book?<span aria-hidden="true" style="color: #A3A3A3">+</span></summary>
+<p style="margin: 0; padding: 0 28px 26px; font-size: 17px; line-height: 1.6; color: #D4D4D4">No. It's an independent work of commentary and analysis. It isn't affiliated with or endorsed by HBO or anyone who made the show.</p>
+</details>
+<details style="background: #141414; border-radius: 4px">
+<summary style="cursor: pointer; padding: 24px 28px; font-size: 20px; font-weight: 600; display: flex; justify-content: space-between; gap: 16px">Do I need to have seen the show?<span aria-hidden="true" style="color: #A3A3A3">+</span></summary>
+<p style="margin: 0; padding: 0 28px 26px; font-size: 17px; line-height: 1.6; color: #D4D4D4">No. Every scene is set up before it's taken apart. Fans will catch more, but nobody gets lost.</p>
+</details>
+<details style="background: #141414; border-radius: 4px">
+<summary style="cursor: pointer; padding: 24px 28px; font-size: 20px; font-weight: 600; display: flex; justify-content: space-between; gap: 16px">Is it just the videos written down?<span aria-hidden="true" style="color: #A3A3A3">+</span></summary>
+<p style="margin: 0; padding: 0 28px 26px; font-size: 17px; line-height: 1.6; color: #D4D4D4">No. The videos tell the story. The book covers the moves that didn't fit in them, and adds the tell and the counter for each one.</p>
+</details>
+<details style="background: #141414; border-radius: 4px">
+<summary style="cursor: pointer; padding: 24px 28px; font-size: 20px; font-weight: 600; display: flex; justify-content: space-between; gap: 16px">What format is it?<span aria-hidden="true" style="color: #A3A3A3">+</span></summary>
+<p style="margin: 0; padding: 0 28px 26px; font-size: 17px; line-height: 1.6; color: #D4D4D4">A PDF you can read on your phone, tablet, laptop or e-reader. You get the download link right after checkout.</p>
+</details>
+<details style="background: #141414; border-radius: 4px">
+<summary style="cursor: pointer; padding: 24px 28px; font-size: 20px; font-weight: 600; display: flex; justify-content: space-between; gap: 16px">Can I get a refund?<span aria-hidden="true" style="color: #A3A3A3">+</span></summary>
+<p style="margin: 0; padding: 0 28px 26px; font-size: 17px; line-height: 1.6; color: #D4D4D4">[YOUR REFUND POLICY]</p>
+</details>
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer style="padding: 48px clamp(20px, 4vw, 56px) 64px; border-top: 1px solid #1C1C1C">
+<div style="max-width: 1280px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 24px">
+<div style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 12px">
+<span style="color: #D61F26; font-weight: 900; font-size: 20px; letter-spacing: -0.02em; text-transform: uppercase">Max Mobster</span>
+<p style="margin: 0; max-width: 560px; font-size: 13px; line-height: 1.6; color: #8C8C8C">© 2026 Max Mobster. An unofficial work of commentary and analysis. Not affiliated with, endorsed by or connected to HBO or the creators of The Sopranos. All character names are used for commentary only.</p>
+</div>
+<nav aria-label="Footer" style="display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start">
+<a href="[YOUTUBE LINK]" style="font-size: 14px; color: #A3A3A3">YouTube</a>
+<a href="[CONTACT LINK]" style="font-size: 14px; color: #A3A3A3">Contact</a>
+<a href="[TERMS LINK]" style="font-size: 14px; color: #A3A3A3">Terms</a>
+</nav>
+</div>
+</footer>
+
+</div>
+<script>
+(function(){
+  var shown='front';
+  var base='display: block; padding: 0; margin: 0; border: 0; background: none; cursor: pointer; width: 80%; aspect-ratio: 2 / 3; border-radius: 2px; box-shadow: 0 40px 80px rgba(0,0,0,0.7); transition: left 0.5s cubic-bezier(0.2,0.8,0.2,1), top 0.5s cubic-bezier(0.2,0.8,0.2,1), transform 0.5s cubic-bezier(0.2,0.8,0.2,1), filter 0.5s;', onTop=' left: 0; top: 0; z-index: 2; transform: rotate(-2deg); filter: none;', behind=' left: 20%; top: 6%; z-index: 1; transform: rotate(4deg); filter: brightness(0.5);';
+  var f=document.getElementById('coverFront'), b=document.getElementById('coverBack'), t=document.getElementById('coverToggleText');
+  function render(){
+    f.style.cssText='position: absolute; '+base+(shown==='front'?onTop:behind);
+    b.style.cssText='position: absolute; '+base+(shown==='back'?onTop:behind);
+    f.setAttribute('aria-label', shown==='front'?'Front cover. Tap to see the back':'Bring the front cover forward');
+    b.setAttribute('aria-label', shown==='back'?'Back cover. Tap to see the front':'Bring the back cover forward');
+    t.textContent = shown==='front'?'See the back cover':'See the front cover';
+  }
+  document.querySelectorAll('[data-swap]').forEach(function(el){ el.addEventListener('click', function(){ shown = shown==='front'?'back':'front'; render(); }); });
+})();
+</script>
+</body>
+</html>
